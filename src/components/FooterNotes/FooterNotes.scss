@@ -1,0 +1,55 @@
+.footer {
+  display: flex;
+  justify-content: center;
+
+  gap: 300px;
+  background-color: #ddeffd;
+
+  padding: 70px;
+  padding-left: 0;
+  padding-right: 0;
+
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-bottom: 1px #75a3c8 solid;
+
+  &__links {
+    display: flex;
+
+    justify-content: center;
+    gap: 80px;
+
+    .linkColumn {
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        :not(:last-child) {
+          margin-bottom: 15px;
+        }
+      }
+    }
+
+    .linkColumn-Last {
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        gap: 20px;
+
+        :not(:last-child) {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}
+
+.background {
+  background-color: #ddeffd;
+}

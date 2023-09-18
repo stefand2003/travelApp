@@ -1,0 +1,125 @@
+.trips {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  font-family: 'Outfit';
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    h4 {
+      color: #75a3c8;
+      margin-bottom: 0;
+    }
+
+    h1 {
+      font-size: 40px;
+      margin-top: 15px;
+    }
+  }
+
+  &__selection {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    gap: 65px;
+
+    font-size: 25px;
+    width: fit-content;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+    :not(:last-child) {
+      border-right: 0.5px #75a3c8 solid;
+      padding-right: 65px;
+    }
+  }
+
+  &__destinations {
+    display: flex;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-left: 30px;
+    padding-right: 30px;
+
+    .info {
+      display: flex;
+      flex-direction: column;
+
+      margin: 0;
+      padding: 0;
+
+      width: 380px;
+      margin-left: 25px;
+
+      :last-child {
+        .button {
+        }
+      }
+
+      .header {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+
+        :last-child {
+          color: #75a3c8;
+        }
+      }
+
+      .headline {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .cardEnd {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        align-items: center;
+        gap: 149px;
+        width: fit-content;
+
+        &__location {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+
+          img {
+            width: 20px;
+          }
+
+          display: flex;
+          gap: 5px;
+        }
+
+        button {
+          border: none;
+          padding: 10px;
+          width: 120px;
+          border-radius: 50px;
+          background-color: #90caf9;
+          color: white;
+          font-weight: bold;
+        }
+        .lastBtn {
+          transform: translate(-25px);
+        }
+      }
+    }
+  }
+}

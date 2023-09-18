@@ -1,0 +1,169 @@
+.testimonial {
+  &__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h3 {
+      color: #75a3c8;
+      font-family: 'Jua';
+      letter-spacing: 2px;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-family: 'Outfit';
+      font-size: 45px;
+      margin-top: 0;
+      margin-bottom: 20px;
+    }
+
+    h4 {
+      color: #c6c8c8;
+      font-family: 'Jua';
+      letter-spacing: 2px;
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
+  }
+
+  &__topRow {
+    margin-top: 80px;
+    display: flex;
+    gap: 30px;
+
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+
+    transform: translate(-200px);
+
+    &--card {
+      width: fit-content;
+      background-color: #bcdffb;
+      border: 1px black solid;
+      border-radius: 20px;
+
+      box-shadow: 5px 5px;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      .customer {
+        font-family: 'Outfit';
+
+        h2 {
+          padding-top: 30px;
+          margin-top: 0;
+          margin-bottom: 5px;
+
+          margin-left: 30px;
+        }
+      }
+
+      .location {
+        font-size: 14px;
+
+        h4 {
+          margin: 0;
+          padding: 0;
+
+          color: #5d5d5d;
+
+          margin-bottom: 20px;
+          margin-left: 30px;
+        }
+      }
+
+      .description {
+        width: 550px;
+        letter-spacing: 0.5px;
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+
+      .rating {
+        margin-top: 10px;
+        margin-right: 30px;
+
+        padding-bottom: 30px;
+
+        display: flex;
+        justify-content: end;
+      }
+    }
+  }
+
+  &__bottomRow {
+    margin-top: 50px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;
+
+    transform: translate();
+
+    gap: 30px;
+
+    &--card {
+      width: fit-content;
+      background-color: #bcdffb;
+      border: 1px black solid;
+      border-radius: 20px;
+
+      box-shadow: 5px 5px;
+    }
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      .customer {
+        font-family: 'Outfit';
+
+        h2 {
+          padding-top: 30px;
+          margin-top: 0;
+          margin-bottom: 5px;
+
+          margin-left: 30px;
+        }
+      }
+
+      .location {
+        font-size: 14px;
+
+        h4 {
+          margin: 0;
+          padding: 0;
+
+          color: #5d5d5d;
+
+          margin-bottom: 20px;
+          margin-left: 30px;
+        }
+      }
+
+      .description {
+        width: 550px;
+        letter-spacing: 0.5px;
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+
+      .rating {
+        margin-top: 10px;
+        margin-right: 30px;
+
+        padding-bottom: 30px;
+
+        display: flex;
+        justify-content: end;
+      }
+    }
+  }
+}
