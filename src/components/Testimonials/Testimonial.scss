@@ -1,168 +1,347 @@
-.testimonial {
-  &__header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media screen and (min-width: 1260px) and (max-width: 2000px) {
+  .testimonial {
+    &__header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 
-    h3 {
-      color: #75a3c8;
-      font-family: 'Jua';
-      letter-spacing: 2px;
-      margin-top: 0;
-      margin-bottom: 20px;
+      h3 {
+        color: #75a3c8;
+        font-family: 'Jua';
+        letter-spacing: 2px;
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+
+      h1 {
+        font-family: 'Outfit';
+        font-size: 45px;
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+
+      h4 {
+        color: #c6c8c8;
+        font-family: 'Jua';
+        letter-spacing: 2px;
+        margin-top: 10px;
+        margin-bottom: 0;
+      }
     }
 
-    h1 {
-      font-family: 'Outfit';
-      font-size: 45px;
-      margin-top: 0;
-      margin-bottom: 20px;
+    &__topRow {
+      margin-top: 80px;
+      display: flex;
+      gap: 30px;
+
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+
+      &--card {
+        width: fit-content;
+        background-color: #bcdffb;
+        border: 1px black solid;
+        border-radius: 20px;
+
+        box-shadow: 5px 5px;
+      }
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        .customer {
+          font-family: 'Outfit';
+
+          h2 {
+            padding-top: 30px;
+            margin-top: 0;
+            margin-bottom: 5px;
+
+            margin-left: 30px;
+          }
+        }
+
+        .location {
+          font-size: 14px;
+
+          h4 {
+            margin: 0;
+            padding: 0;
+
+            color: #5d5d5d;
+
+            margin-bottom: 20px;
+            margin-left: 30px;
+          }
+        }
+
+        .description {
+          width: 550px;
+          letter-spacing: 0.5px;
+          margin-left: 30px;
+          margin-right: 30px;
+        }
+
+        .rating {
+          margin-top: 10px;
+          margin-right: 30px;
+
+          padding-bottom: 30px;
+
+          display: flex;
+          justify-content: end;
+        }
+      }
     }
 
-    h4 {
-      color: #c6c8c8;
-      font-family: 'Jua';
-      letter-spacing: 2px;
-      margin-top: 10px;
-      margin-bottom: 0;
+    &__bottomRow {
+      margin-top: 50px;
+      padding-bottom: 120px;
+      display: flex;
+      justify-content: center;
+
+      gap: 30px;
+
+      &--card {
+        width: fit-content;
+        background-color: #bcdffb;
+        border: 1px black solid;
+        border-radius: 20px;
+
+        box-shadow: 5px 5px;
+      }
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        .customer {
+          font-family: 'Outfit';
+
+          h2 {
+            padding-top: 30px;
+            margin-top: 0;
+            margin-bottom: 5px;
+
+            margin-left: 30px;
+          }
+        }
+
+        .location {
+          font-size: 14px;
+
+          h4 {
+            margin: 0;
+            padding: 0;
+
+            color: #5d5d5d;
+
+            margin-bottom: 20px;
+            margin-left: 30px;
+          }
+        }
+
+        .description {
+          width: 550px;
+          letter-spacing: 0.5px;
+          margin-left: 30px;
+          margin-right: 30px;
+        }
+
+        .rating {
+          margin-top: 10px;
+          margin-right: 30px;
+
+          padding-bottom: 30px;
+
+          display: flex;
+          justify-content: end;
+        }
+      }
     }
   }
+}
 
-  &__topRow {
-    margin-top: 80px;
-    display: flex;
-    gap: 30px;
+@media screen and (min-width: 400px) and (max-width: 1260px) {
+  .testimonial {
+    &__header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
 
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+      h3 {
+        color: #75a3c8;
+        font-family: 'Jua';
+        letter-spacing: 2px;
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
 
-    transform: translate(-200px);
-
-    &--card {
-      width: fit-content;
-      background-color: #bcdffb;
-      border: 1px black solid;
-      border-radius: 20px;
-
-      box-shadow: 5px 5px;
-    }
-
-    ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-
-      .customer {
+      h1 {
         font-family: 'Outfit';
-
-        h2 {
-          padding-top: 30px;
-          margin-top: 0;
-          margin-bottom: 5px;
-
-          margin-left: 30px;
-        }
+        font-size: 45px;
+        margin-top: 0;
+        margin-bottom: 20px;
       }
 
-      .location {
-        font-size: 14px;
-
-        h4 {
-          margin: 0;
-          padding: 0;
-
-          color: #5d5d5d;
-
-          margin-bottom: 20px;
-          margin-left: 30px;
-        }
-      }
-
-      .description {
-        width: 550px;
-        letter-spacing: 0.5px;
-        margin-left: 30px;
-        margin-right: 30px;
-      }
-
-      .rating {
+      h4 {
+        color: #c6c8c8;
+        font-family: 'Jua';
+        letter-spacing: 2px;
         margin-top: 10px;
-        margin-right: 30px;
-
-        padding-bottom: 30px;
-
-        display: flex;
-        justify-content: end;
+        margin-bottom: 0;
       }
     }
-  }
 
-  &__bottomRow {
-    margin-top: 50px;
-    padding-bottom: 120px;
-    display: flex;
-    justify-content: center;
+    &__topRow {
+      margin-top: 80px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
 
-    transform: translate();
-
-    gap: 30px;
-
-    &--card {
       width: fit-content;
-      background-color: #bcdffb;
-      border: 1px black solid;
-      border-radius: 20px;
+      margin-left: auto;
+      margin-right: auto;
 
-      box-shadow: 5px 5px;
+      &--card {
+        background-color: #bcdffb;
+        border: 1px black solid;
+        border-radius: 20px;
+        width: 45%;
+        box-shadow: 5px 5px;
+      }
+
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        .customer {
+          font-family: 'Outfit';
+
+          h2 {
+            padding-top: 30px;
+            margin-top: 0;
+            margin-bottom: 5px;
+
+            margin-left: 30px;
+          }
+        }
+
+        .location {
+          font-size: 14px;
+
+          h4 {
+            margin: 0;
+            padding: 0;
+
+            color: #5d5d5d;
+
+            margin-bottom: 20px;
+            margin-left: 30px;
+          }
+        }
+
+        .description {
+          width: fit-content;
+          letter-spacing: 0.5px;
+          margin-left: 30px;
+          margin-right: 30px;
+        }
+
+        .rating {
+          margin-top: 10px;
+          margin-right: 30px;
+
+          padding-bottom: 10px;
+
+          display: flex;
+          justify-content: start;
+          margin-top: 20px;
+          margin: 30px;
+
+          img {
+            width: 120px;
+          }
+        }
+      }
     }
 
-    ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
+    &__bottomRow {
+      margin-top: 50px;
+      padding-bottom: 120px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
 
-      .customer {
-        font-family: 'Outfit';
+      &--card {
+        background-color: #bcdffb;
+        border: 1px black solid;
+        border-radius: 20px;
+        box-shadow: 5px 5px;
+      }
 
-        h2 {
-          padding-top: 30px;
-          margin-top: 0;
-          margin-bottom: 5px;
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
 
-          margin-left: 30px;
+        .customer {
+          font-family: 'Outfit';
+
+          h2 {
+            padding-top: 30px;
+            margin-top: 0;
+            margin-bottom: 5px;
+
+            margin-left: 30px;
+          }
         }
-      }
 
-      .location {
-        font-size: 14px;
+        .location {
+          font-size: 14px;
 
-        h4 {
-          margin: 0;
-          padding: 0;
+          h4 {
+            margin: 0;
+            padding: 0;
 
-          color: #5d5d5d;
+            color: #5d5d5d;
 
-          margin-bottom: 20px;
-          margin-left: 30px;
+            margin-bottom: 20px;
+            margin-left: 30px;
+          }
         }
-      }
 
-      .description {
-        width: 550px;
-        letter-spacing: 0.5px;
-        margin-left: 30px;
-        margin-right: 30px;
-      }
+        .description {
+          width: fit-content;
+          letter-spacing: 0.5px;
+          margin-left: 30px;
+          margin-right: 30px;
+        }
 
-      .rating {
-        margin-top: 10px;
-        margin-right: 30px;
+        .rating {
+          margin-top: 10px;
+          margin-right: 30px;
 
-        padding-bottom: 30px;
+          padding-bottom: 10px;
 
-        display: flex;
-        justify-content: end;
+          display: flex;
+          justify-content: start;
+          margin-top: 20px;
+          margin: 30px;
+
+          img {
+            width: 120px;
+          }
+        }
       }
     }
   }

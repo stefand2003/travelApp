@@ -1,123 +1,244 @@
-.trips {
-  margin-top: 150px;
-  margin-bottom: 150px;
-  font-family: 'Outfit';
+@media screen and (min-width: 1285px) and (max-width: 2000px) {
+  .trips {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-family: 'Outfit';
 
-  &__header {
-    display: flex;
-    flex-direction: column;
-
-    align-items: center;
-
-    h4 {
-      color: #75a3c8;
-      margin-bottom: 0;
-    }
-
-    h1 {
-      font-size: 40px;
-      margin-top: 15px;
-    }
-  }
-
-  &__selection {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
-    display: flex;
-    gap: 65px;
-
-    font-size: 25px;
-    width: fit-content;
-
-    margin-left: auto;
-    margin-right: auto;
-
-    margin-top: 30px;
-    margin-bottom: 50px;
-
-    :not(:last-child) {
-      border-right: 0.5px #75a3c8 solid;
-      padding-right: 65px;
-    }
-  }
-
-  &__destinations {
-    display: flex;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
-
-    padding-left: 30px;
-    padding-right: 30px;
-
-    .info {
+    &__header {
       display: flex;
       flex-direction: column;
 
+      align-items: center;
+
+      h4 {
+        color: #75a3c8;
+        margin-bottom: 0;
+      }
+
+      h1 {
+        font-size: 40px;
+        margin-top: 15px;
+      }
+    }
+
+    &__selection {
+      list-style: none;
       margin: 0;
       padding: 0;
 
-      width: 380px;
-      margin-left: 25px;
+      display: flex;
+      gap: 65px;
 
-      :last-child {
-        .button {
-        }
+      font-size: 25px;
+      width: fit-content;
+
+      margin-left: auto;
+      margin-right: auto;
+
+      margin-top: 30px;
+      margin-bottom: 50px;
+
+      :not(:last-child) {
+        border-right: 0.5px #75a3c8 solid;
+        padding-right: 65px;
       }
+    }
 
-      .header {
-        list-style: none;
-        padding: 0;
-        margin: 0;
+    &__destinations {
+      display: flex;
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+
+      padding-left: 30px;
+      padding-right: 30px;
+
+      .info {
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+
+        margin: 0;
+        padding: 0;
+
+        width: 380px;
+        margin-left: 25px;
 
         :last-child {
-          color: #75a3c8;
+          .button {
+          }
         }
-      }
 
-      .headline {
-        margin-left: auto;
-        margin-right: auto;
-      }
+        .header {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          justify-content: space-between;
 
-      .cardEnd {
-        list-style: none;
-        margin: 0;
-        padding: 0;
+          :last-child {
+            color: #75a3c8;
+          }
+        }
 
-        display: flex;
-        align-items: center;
-        gap: 149px;
-        width: fit-content;
+        .headline {
+          margin-left: auto;
+          margin-right: auto;
+        }
 
-        &__location {
+        .cardEnd {
           list-style: none;
           margin: 0;
           padding: 0;
 
-          img {
-            width: 20px;
+          display: flex;
+          align-items: center;
+          gap: 149px;
+          width: fit-content;
+
+          &__location {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            img {
+              width: 20px;
+            }
+
+            display: flex;
+            gap: 5px;
           }
 
-          display: flex;
-          gap: 5px;
+          button {
+            border: none;
+            padding: 10px;
+            width: 120px;
+            border-radius: 50px;
+            background-color: #90caf9;
+            color: white;
+            font-weight: bold;
+          }
+          .lastBtn {
+            transform: translate(-25px);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 1284px) {
+  .trips {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    font-family: 'Outfit';
+
+    &__header {
+      display: flex;
+      flex-direction: column;
+
+      align-items: center;
+
+      h4 {
+        color: #75a3c8;
+        margin-bottom: 0;
+      }
+
+      h1 {
+        font-size: 40px;
+        margin-top: 15px;
+      }
+    }
+
+    &__selection {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0;
+      gap: 40px;
+      font-size: 22px;
+
+      padding-top: 10px;
+      padding-bottom: 30px;
+      flex-wrap: wrap;
+    }
+
+    &__destinations {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      width: fit-content;
+      margin-left: auto;
+      margin-right: auto;
+      gap: 40px;
+
+      .info {
+        display: flex;
+        flex-direction: column;
+
+        margin: 0;
+        padding: 0;
+
+        width: 380px;
+        margin-left: 25px;
+
+        :last-child {
+          .button {
+          }
         }
 
-        button {
-          border: none;
-          padding: 10px;
-          width: 120px;
-          border-radius: 50px;
-          background-color: #90caf9;
-          color: white;
-          font-weight: bold;
+        .header {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          justify-content: space-between;
+
+          :last-child {
+            color: #75a3c8;
+          }
         }
-        .lastBtn {
-          transform: translate(-25px);
+
+        .headline {
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        .cardEnd {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+
+          display: flex;
+          align-items: center;
+          gap: 149px;
+          width: fit-content;
+
+          &__location {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            img {
+              width: 20px;
+            }
+
+            display: flex;
+            gap: 5px;
+          }
+
+          button {
+            border: none;
+            padding: 10px;
+            width: 120px;
+            border-radius: 50px;
+            background-color: #90caf9;
+            color: white;
+            font-weight: bold;
+          }
+          .lastBtn {
+            transform: translate(-25px);
+          }
         }
       }
     }

@@ -23,7 +23,7 @@ export default function Hero() {
       </div>
 
       <div className='hero__image'>
-        <img src={Romantic} />
+        <img src={Romantic} className='romanticHero' />
         <ul>
           <li>
             <img src={Location} />

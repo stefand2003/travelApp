@@ -48,24 +48,6 @@ export default function Testimonial() {
             <img src={Stars} />
           </li>
         </ul>
-
-        <ul className='testimonial__topRow--card'>
-          <li className='customer'>
-            <h2>Liam S.</h2>
-          </li>
-          <li className='location'>
-            <h4>Hollywood, CA</h4>
-          </li>
-          <li className='description'>
-            I booked a custom getaway to Paris at a great price and the website
-            even helped me book tours and activities. The customer service was
-            excellent and I was reimbursed for our lost luggage!
-          </li>
-
-          <li className='rating'>
-            <img src={Stars} />
-          </li>
-        </ul>
       </div>
 
       <div className='testimonial__bottomRow'>

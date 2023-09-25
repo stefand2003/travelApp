@@ -31,7 +31,7 @@ export default function Search() {
 
       <ul className='search__price'>
         <ul className='header'>
-          <li>Average price</li>
+          <li>Price</li>
           <li>
             <img src={Chevron} />
           </li>
@@ -40,7 +40,9 @@ export default function Search() {
         <li>$523 - $849</li>
       </ul>
 
-      <img src={SearchIcon} className='searchicon' />
+      <div className='search__icon'>
+        <img src={SearchIcon} className='searchicon' />
+      </div>
     </div>
   );
 }

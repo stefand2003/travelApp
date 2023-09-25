@@ -1,101 +1,214 @@
-.search {
-  img {
-    width: 15px;
-  }
-  color: rgb(147, 147, 147);
-  font-family: 'Outfit';
+@media screen and (min-width: 400px) and (max-width: 1284px) {
+  .search {
+    img {
+      width: 15px;
+    }
+    color: rgb(147, 147, 147);
+    font-family: 'Outfit';
 
-  display: flex;
-  align-items: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    border: 1px #75a3c8 solid;
+    box-shadow: 3px 3px 3px lightskyblue;
+    padding: 20px;
+    border-radius: 50px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    margin-top: -350px;
 
-  width: 560px;
-  margin-left: auto;
-  margin-right: auto;
-
-  gap: 30px;
-
-  transform: translate(-311px, -100px);
-
-  border: 1px #75a3c8 solid;
-  box-shadow: 3px 3px 3px lightskyblue;
-
-  padding: 20px;
-  border-radius: 50px;
-
-  &__location {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
-    margin-left: 20px;
-    border-right: 1px #75a3c8 solid;
-    padding-right: 30px;
-
-    .header {
+    &__location {
       list-style: none;
       margin: 0;
       padding: 0;
 
-      display: flex;
-      gap: 3px;
+      margin-left: 20px;
+      border-right: 1px #75a3c8 solid;
+      padding-right: 30px;
 
-      margin-bottom: 3px;
+      .header {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        gap: 3px;
+        margin-bottom: 3px;
+      }
+
+      :last-child {
+        font-size: 15px;
+        color: black;
+      }
     }
 
-    :last-child {
-      font-size: 18px;
-      color: black;
-    }
-  }
-
-  &__date {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
-    border-right: 1px #75a3c8 solid;
-    padding-right: 30px;
-
-    .header {
+    &__date {
       list-style: none;
       margin: 0;
       padding: 0;
 
-      display: flex;
-      gap: 3px;
+      border-right: 1px #75a3c8 solid;
 
-      margin-bottom: 3px;
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-right: 10px;
+
+      padding-right: 20px;
+      padding-left: 20px;
+      .header {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 3px;
+
+        margin-bottom: 3px;
+      }
+
+      :last-child {
+        font-size: 15px;
+        color: black;
+      }
     }
 
-    :last-child {
-      font-size: 18px;
-      color: black;
-    }
-  }
-
-  &__price {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
-    .header {
+    &__price {
       list-style: none;
       margin: 0;
       padding: 0;
 
-      display: flex;
-      gap: 3px;
-      margin-bottom: 3px;
+      .header {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        gap: 3px;
+        margin-bottom: 3px;
+      }
+
+      :last-child {
+        font-size: 15px;
+        color: black;
+      }
     }
 
-    :last-child {
-      font-size: 18px;
-      color: black;
+    &__icon {
+      padding-left: 5vw;
+    }
+
+    .searchicon {
+      width: 40px;
+      margin-right: 20px;
     }
   }
+}
 
-  .searchicon {
-    width: 60px;
-    margin-right: 20px;
+@media screen and (min-width: 1285px) and (max-width: 2000px) {
+  .search {
+    img {
+      width: 15px;
+    }
+    color: rgb(147, 147, 147);
+    font-family: 'Outfit';
+
+    display: flex;
+    align-items: center;
+
+    width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+
+    gap: 30px;
+
+    transform: translate(-311px, -100px);
+
+    border: 1px #75a3c8 solid;
+    box-shadow: 3px 3px 3px lightskyblue;
+
+    padding: 20px;
+    border-radius: 50px;
+
+    &__location {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      margin-left: 20px;
+      border-right: 1px #75a3c8 solid;
+      padding-right: 30px;
+
+      .header {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        gap: 3px;
+
+        margin-bottom: 3px;
+      }
+
+      :last-child {
+        font-size: 18px;
+        color: black;
+      }
+    }
+
+    &__date {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      border-right: 1px #75a3c8 solid;
+      padding-right: 30px;
+
+      .header {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        gap: 3px;
+
+        margin-bottom: 3px;
+      }
+
+      :last-child {
+        font-size: 18px;
+        color: black;
+      }
+    }
+
+    &__price {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      .header {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        display: flex;
+        gap: 3px;
+        margin-bottom: 3px;
+      }
+
+      :last-child {
+        font-size: 18px;
+        color: black;
+      }
+    }
+
+    .searchicon {
+      width: 60px;
+      margin-right: 20px;
+    }
   }
 }
